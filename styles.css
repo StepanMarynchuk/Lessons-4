@@ -12,6 +12,7 @@ body {margin: 0;}
 }*/
 
 h2 {text-align: center;color:black;}
+span {font-weight:bold}
 
 /*Flex*/
 
@@ -28,7 +29,9 @@ h2 {text-align: center;color:black;}
 
 .margin-r-10 {margin-right: 10px;}
 .margin-t-10 {margin-top: 10px;}
-.margin-t-50 {margin-top: 100px;}
+.margin-t-15 {margin-top: 15px;}
+.margin-t-50 {margin-top: 50px;}
+.margin-l-10 {margin-left: 10px}
 
 
 /*Navigation*/
@@ -62,6 +65,21 @@ h2 {text-align: center;color:black;}
     color:black;
 }
 
+.button1 {
+    text-decoration: none;
+    color:black;
+    border: black;
+    display: inline-block;
+    background-color: white;
+    font-size: 16px;
+    padding: 15px 32px;
+    border-radius: 12px;
+}
+
+.button1:hover {
+    background-color:grey;
+    color:black;
+}
 .top-main {
     background: url("waters.jpg")   ;
     background-repeat: no-repeat;
@@ -95,4 +113,37 @@ h2 {text-align: center;color:black;}
 .article-p {
     text-align: center;
     color: grey;
+}
+
+.logo-sun {
+    height: 80px;
+    display:block; 
+    margin:0 auto;
+      } 
+
+.left-box {
+    background-color: aquamarine;
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 200px;   
+}
+.right-box {
+    background-color: darkkhaki;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 200px;
+}
+
+.img-box1{
+    float: left;
+    height: 100px;
+    width: auto;
+}
+
+.img-box2 {
+    float: left;
+    height: 100px;
+    width: auto;
 }
