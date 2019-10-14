@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {margin: 0;}
+
+/*h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}*/
+
+h2 {text-align: center;color:black;}
+
+/*Flex*/
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+/*Margins & Paddings*/
+
+.margin-r-10 {margin-right: 10px;}
+.margin-t-10 {margin-top: 10px;}
+.margin-t-50 {margin-top: 100px;}
+
+
+/*Navigation*/
+
+.header .logo {
+    height: 50px;
+    width: auto;
+    
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 1em;
+    color: grey;
+    font-weight: bold;
+}
+
+.nav-button {
+    text-decoration: none;
+    color: aliceblue;
+    border: none;
+    display: inline-block;
+    background-color: #4CAF50;
+    font-size: 16px;
+    padding: 15px 32px;
+    border-radius: 12px;
+}
+
+.nav-button:hover {
+    background-color:grey;
+    color:black;
+}
+
+.top-main {
+    background: url("waters.jpg")   ;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: 100% 100%;
+    margin-top: 10px;
+}
+
+.top-header {
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.button {
+    text-decoration: none;
+    color: aliceblue;
+    border: none;
+    display: inline-block;
+    background-color: #4CAF50;
+    font-size: 16px;
+    padding: 15px 32px;
+    border-radius: 12px;
+}
+
+.button:hover {
+    background-color:white;
+    color:black;
+}
+
+.article-p {
+    text-align: center;
+    color: grey;
+}
